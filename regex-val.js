@@ -19,3 +19,9 @@ function extractData(text, type) {
 }
 
 
+console.log(extractData("user@example.com", "email")); 
+console.log(extractData("https://www.example.com", "url")); 
+console.log(extractData("(123) 456-7890", "phone")); 
+console.log(extractData("1234 5678 9012 3456", "creditCard")); 
+console.log(extractData("14:30", "time")); 
+console.log(extractData("2:30 PM", "time"));
